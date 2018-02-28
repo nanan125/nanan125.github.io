@@ -83,7 +83,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2018/02/27/第一个/">第一个</a>
+      <a class="article-title" href="/2018/02/27/第一个/">hexo+github踩过的坑实录</a>
     </h1>
   
 
@@ -91,11 +91,15 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>流程和坑<br>第一步，先准备安装环境<br>1，    安装git，<br>    用于安装hexo，并部署到github</p>
+<p>2，    安装Node.js</p>
+<p>3，    下载并安装hexo<br>    右击，进入git bash here，输入npm install -g hexo，等待下载并安装完成</p>
+<p>4，github仓库和page创建<br>    注册账号，创建仓库，仓库命名：<br>    创建gitpage<br>    先前往github注册账号，创建仓库注意命名规则：<br>    第二步，在本地生成代码<br>1， 初始化<br>    新建文件夹hexo，用于存放代码；<br>    在文件夹空白处，右击打开git，输入$ hexo init；<br>    这时候在hexo中已经看到已经生成了代码。<br>2， 安装依赖包<br>    npm install，具体什么是依赖包，不知道。<br>3，本地部署<br>    hexo generate，用于生成文章页代码；<br>    hexo server，用于部署到本地；<br>4，本地测试<br>    默认端口4000，访问即可 <a href="http://localhost:4000/；" target="_blank" rel="noopener">http://localhost:4000/；</a><br>    然而福晰阅读器会占用这个端口，需要修改默认端口。<br>5，修改端口<br>    hexo中找到_config.yml，打开，添加<br>    server:<br>    port: 5000<br>    compress: true<br>    header: true<br>    保存；<br>    hexo s，就可以访问下面的地址；<br>    <a href="http://localhost:5000/" target="_blank" rel="noopener">http://localhost:5000/</a><br>第三步，将本地hexo部署到github</p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/02/27/第一个/" data-id="cje5mcke00001s4glxof4n3ky" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/02/27/第一个/" data-id="cje5ni55q0002bogl91nw6iv0" class="article-share-link">Share</a>
       
       
     </footer>
@@ -131,7 +135,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/02/27/文章标题/" data-id="cje5mcke00000s4glomwdmlcy" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/02/27/文章标题/" data-id="cje5ni55i0000boglevuuk2oa" class="article-share-link">Share</a>
       
       
     </footer>
@@ -176,7 +180,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/02/27/hello-world/" data-id="cje5mcke00002s4gl38w3k21f" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/02/27/hello-world/" data-id="cje5ni55n0001boglv5cc2rcj" class="article-share-link">Share</a>
       
       
     </footer>
@@ -217,7 +221,7 @@
       <ul>
         
           <li>
-            <a href="/2018/02/27/第一个/">第一个</a>
+            <a href="/2018/02/27/第一个/">hexo+github踩过的坑实录</a>
           </li>
         
           <li>
